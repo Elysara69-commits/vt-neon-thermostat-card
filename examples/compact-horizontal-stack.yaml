@@ -1,0 +1,13 @@
+# Deux cartes compactes côte à côte
+type: horizontal-stack
+cards:
+  - type: custom:vt-neon-thermostat-card
+    layout: compact
+    entity: climate.salon_degc
+    name: SALON
+    powerEntity: sensor.pilote_radiateur_salon_power
+  - type: custom:vt-neon-thermostat-card
+    layout: compact
+    entity: climate.sejout_degc
+    name: SAM
+    powerEntity: sensor.pilote_radiateur_sam_power

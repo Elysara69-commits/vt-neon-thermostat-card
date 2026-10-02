@@ -1,0 +1,23 @@
+# Une liste de pièces : une ligne par thermostat
+type: vertical-stack
+cards:
+  - type: custom:vt-neon-thermostat-card
+    layout: horizontal
+    entity: climate.salon_degc
+    name: SALON
+    powerEntity: sensor.pilote_radiateur_salon_power
+  - type: custom:vt-neon-thermostat-card
+    layout: horizontal
+    entity: climate.sejout_degc
+    name: SALLE À MANGER
+    powerEntity: sensor.pilote_radiateur_sam_power
+  - type: custom:vt-neon-thermostat-card
+    layout: horizontal
+    entity: climate.parent_degc
+    name: PARENTS
+    powerEntity: sensor.pilote_radiateur_parent_power
+  - type: custom:vt-neon-thermostat-card
+    layout: horizontal
+    entity: climate.emma_degc
+    name: CHAMBRE EMMA
+    powerEntity: sensor.pilote_radiateur_emma_power

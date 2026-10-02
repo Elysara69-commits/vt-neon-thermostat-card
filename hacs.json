@@ -1,0 +1,6 @@
+{
+  "name": "VT Neon Thermostat Card",
+  "render_readme": true,
+  "filename": "vt-neon-thermostat-card.js",
+  "homeassistant": "2024.8.0"
+}

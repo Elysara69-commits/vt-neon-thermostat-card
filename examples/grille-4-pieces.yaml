@@ -1,0 +1,32 @@
+type: grid
+square: false
+columns: 2
+cards:
+  - type: custom:vt-neon-thermostat-card
+    entity: climate.salon_degc
+    name: SALON
+    powerEntity: sensor.pilote_radiateur_salon_power
+    statusEntity: input_text.salon_statut_calcul_python
+    set_current_as_main: true
+    disable_window: false
+  - type: custom:vt-neon-thermostat-card
+    entity: climate.sejout_degc
+    name: SALLE À MANGER
+    powerEntity: sensor.pilote_radiateur_sam_power
+    statusEntity: input_text.sam_statut_calcul_python
+    set_current_as_main: true
+    disable_window: false
+  - type: custom:vt-neon-thermostat-card
+    entity: climate.parent_degc
+    name: PARENTS
+    powerEntity: sensor.pilote_radiateur_parent_power
+    statusEntity: input_text.parents_statut_calcul_python
+    set_current_as_main: true
+    disable_window: false
+  - type: custom:vt-neon-thermostat-card
+    entity: climate.emma_degc
+    name: CHAMBRE EMMA
+    powerEntity: sensor.pilote_radiateur_emma_power
+    statusEntity: input_text.emma_statut_calcul_python
+    set_current_as_main: true
+    disable_window: false
